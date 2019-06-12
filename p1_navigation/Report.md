@@ -39,7 +39,7 @@ Assuming you have the conda drlnd environment,
 | UPDATE_EVERY | 4 |
 
 #### A plot of rewards per episode is included to illustrate that the agent is able to receive an average reward (over 100 episodes) of at least +13. 
-![plot](/home/chu-chu/deep_reinforcement_learning_nanodegree/p1_navigation/p1_plot.png)
+![](https://github.com/ChuChuIgbokwe/deep_reinforcement_learning_nanodegree/blob/master/p1_navigation/p1_plot.png)
 
 #### The submission has concrete future ideas for improving the agent's performance.
 The network performance could be improved by using the following extensions
