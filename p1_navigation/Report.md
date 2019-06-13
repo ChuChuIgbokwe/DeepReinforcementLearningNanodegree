@@ -20,6 +20,7 @@ Assuming you have the conda drlnd environment,
 * In the kernel tab, click on Restart & Run All
 
 #### The report clearly describes the learning algorithm, along with the chosen hyperparameters. It also describes the model architectures for any neural networks.
+* I implemented a vanilla Deep Q-Network
 
 |Neural Network Model Architecture |
 | ------ |
