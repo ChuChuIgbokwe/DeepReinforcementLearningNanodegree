@@ -1,3 +1,6 @@
+#!/usr/bin/env python
+# -*- coding: utf-8 -*-
+
 # individual network settings for each actor + critic pair
 # see networkforall for details
 
