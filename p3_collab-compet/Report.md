@@ -72,7 +72,7 @@ a multi-agent deep deterministic policy gradient
 
 **A plot of rewards per episode is included to illustrate that the agents get an average score of +0.5 
 (over 100 consecutive episodes, after taking the maximum over both agents).**
-![](https://github.com/ChuChuIgbokwe/deep_reinforcement_learning_nanodegree/blob/master/p3_collab-compete/p3_plot.png)
+![](https://github.com/ChuChuIgbokwe/deep_reinforcement_learning_nanodegree/blob/master/p3_collab-compet/p3_plot.png)
 
 **The submission reports the number of episodes needed to solve the environment.**
 * The environment was solved in 1874  episodes
