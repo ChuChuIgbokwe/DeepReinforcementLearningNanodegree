@@ -4,15 +4,17 @@
 **The README describes the the project environment details (i.e., the state and action spaces, and when the environment 
 is considered solved).**
 
-* Number of agents: 2
-* Size of each action: 2
+* number of agents: 2
+* state: 2
 * action_spaces: 24 for each agent. 48 in total
-* Solved condition: average score of +0.5 over 100 consecutive episodes
+* solved condition: average score of +0.5 over 100 consecutive episodes
 
 ### Getting Started
 **The README has instructions for installing dependencies or downloading needed files.**
  * This project requires the [Tennis](https://s3-us-west-1.amazonaws.com/udacity-drlnd/P3/Tennis/Tennis_Linux.zip) 
- linux unity environment to be installed in the p3_collab-compet folder 
+ linux unity environment 
+* Download it and move it to the deep_reinforcement_learning/p3_collab-compet folder
+* Extract the file in that location
 
 ### Instructions
 **The README describes how to run the code in the repository, to train the agent.**
@@ -24,10 +26,13 @@ is considered solved).**
     source activate drlnd
     jupyter-notebook 
 ```
+* Navigate to the p3_collab-compet folder
+* You should have your unity environment extracted already in the same folder
 * To train the agent , 
     * Go the p3_collab-compet folder and open Tennis.ipynb
-    * In the kernel tab change to a drlnd kernel
+    * In the kernel tab change the kernel to a drlnd kernel
     * In the kernel tab, click on Restart & Run All
+    * This will train the agent
 
 
 ### Learning Algorithm
@@ -72,6 +77,7 @@ a multi-agent deep deterministic policy gradient
 
 **A plot of rewards per episode is included to illustrate that the agents get an average score of +0.5 
 (over 100 consecutive episodes, after taking the maximum over both agents).**
+
 ![](https://github.com/ChuChuIgbokwe/deep_reinforcement_learning_nanodegree/blob/master/p3_collab-compet/p3_plot.png)
 
 **The submission reports the number of episodes needed to solve the environment.**
@@ -85,7 +91,10 @@ a multi-agent deep deterministic policy gradient
 * Add prioritized experience replay
 * Adding  more noise to my networks for better exploration
 
+### Notes and Observations
 
 ### References
 1. https://papers.nips.cc/paper/7217-multi-agent-actor-critic-for-mixed-cooperative-competitive-environments.pdf
 2. 
+
+
